@@ -1,30 +1,21 @@
-pipeline {
-    agent any
+echo "================================"
+echo "       WELCOME TO JENKINS"
+echo "================================"
 
-    stages {
-        stage('Hello') {
-            steps {
-                echo 'Hello Shivi!'
-                echo 'Welcome to Jenkins CI/CD'
-            }
-        }
+echo "Hello Shivi!"
+echo "Starting build process..."
 
-        stage('Build') {
-            steps {
-                echo 'Building the application...'
-            }
-        }
+echo "Step 1: Initializing project"
+echo "Step 2: Preparing environment"
+echo "Step 3: Building application"
+echo "Step 4: Running tests"
+echo "Step 5: Checking dependencies"
+echo "Step 6: Preparing deployment"
 
-        stage('Test') {
-            steps {
-                echo 'Running application tests...'
-            }
-        }
+echo "Build completed successfully!"
+echo "All tests passed!"
+echo "Application deployed successfully!"
 
-        stage('Deploy') {
-            steps {
-                echo 'Deploying application...'
-            }
-        }
-    }
-}
+echo "================================"
+echo "       PROCESS COMPLETED"
+echo "================================"
